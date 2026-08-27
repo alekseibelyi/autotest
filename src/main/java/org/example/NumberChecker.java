@@ -1,3 +1,5 @@
+package org.example;
+
 public class NumberChecker {
 
     public boolean isEven(int n) {
