@@ -1,13 +1,13 @@
 package org.example;
 
-public class NumberChecker {
+public class chetNechet {
 
     public boolean isEven(int n) {
         return n % 2 == 0;
     }
 
     public static void main(String[] args) {
-        NumberChecker checker = new NumberChecker();
+        chetNechet checker = new chetNechet();
 
         // Тестовые данные
         int[] testNumbers = {0,1,2,3,4,5,6,7,8,9};
@@ -21,3 +21,4 @@ public class NumberChecker {
         }
     }
 }
+
