@@ -6,7 +6,7 @@ public class bolsheMensheNull {
 
         for (int num : numbers) {
             // Прямое использование тернарного оператора
-            System.out.println(num + " " + (num >= 0 ? true : false));
+            System.out.println("Число" + " " + num + " " + (num >= 0 ? true : false));
         }
     }
 }
